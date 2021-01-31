@@ -1,0 +1,228 @@
+body, html {
+    /*
+  The default html interpertation adds margin and padding to the basic elements
+  So it can be logically helpful to remove them from the beginning!
+  */
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #272341;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:white;
+  height: 100%;
+  border-bottom: thick solid white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.6;
+  padding: 40px 120px 50px 120px;
+}
+
+.button1 {
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #5eaaa8;
+}
+
+.button2 {
+  border: 2px solid white;
+  color: white;
+  padding: 12px 30px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #5eaaa8;
+  float: left;
+}
+
+.button3 {
+  border: 2px solid #5eaaa8;
+  color: #5eaaa8;
+  padding: 12px 30px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: white;
+  float: left;
+}
+
+.button3:hover {
+  background-color: #5eaaa8; 
+  color: white;
+}
+
+.button4 {
+  border: 2px solid white;
+  color: white;
+  padding: 12px 30px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #5eaaa8;
+  float: center;
+}
+
+.button1:hover, .button2:hover, .button4:hover {
+  background-color: rgb(65, 154, 151); 
+  color: white;
+}
+
+.profile {
+  background:#5eaaa8;
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.6;
+  padding: 70px 120px 70px 120px;
+}
+
+.profile p, .projects p, .contact p {
+  margin: 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.big-text {
+  font-size: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.container {
+  display: flex;
+  justify-content: column;
+  margin: 0px 0px 0px 0px;  
+}
+
+.panel-left {
+  background: #5eaaa8;
+  order: 1;
+  flex: 2;
+  border: solid  #5eaaa8;
+  width: 50%;
+  margin: auto;
+  padding-right: 30px;
+}
+
+.panel-right {
+  background: #5eaaa8;
+  flex: 2;
+  order: 2;
+  border: solid  #5eaaa8;
+  margin: auto;
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 90px;
+}
+
+.projects {
+  background:white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.6;
+  padding: 40px 120px 50px 120px;
+}
+
+.panel-left-p {
+  background: white;
+  flex: 2;
+  order: 1;
+  padding: 30px 0px 40px 0px;
+  /*border: solid black;*/
+  /*border-bottom: solid rgba(94, 170, 168,.4);*/
+}
+
+.panel-right-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  flex: 3;
+  order: 2;
+  padding: 30px 0px 40px 0px;
+  /*border: solid black;*/
+  /*border-bottom: solid rgba(94, 170, 168,.4);*/
+}
+
+.ptitle {
+  padding-top: 0px;
+  font-size: 26px;
+  text-align: left;
+}
+
+.projects img {
+  border: 1.5px solid rgba(94, 170, 168, .8);
+  box-shadow: 8px 8px rgba(94, 170, 168,.5);
+}
+
+.contact {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  background:#5eaaa8;
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.6;
+  padding: 30px 0px 30px 0px;
+}
+
+.footer {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  background:rgb(75, 75, 75);
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.6;
+  padding: 30px 0px 30px 0px;
+  height: 30%;
+}
+
+.bnav {
+  background-color: rgb(75, 75, 75);
+  overflow: hidden;
+  text-align: center;
+  padding: 6%;
+}
+
+.bnav a {
+  float: center;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+hr {
+  border: 1px solid rgb(111, 111, 111);
+  width: 40%;
+  margin-top: 40px;
+}
